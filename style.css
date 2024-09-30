@@ -1,0 +1,47 @@
+textarea{
+    padding: 0 !important;
+}
+.signup-form input,#c-gender{
+    box-shadow: none !important;
+    border:2px solid rgb(7, 236, 133)
+}
+#c-address{
+    box-shadow: none !important;
+    border:2px solid rgb(20, 20, 73) !important;
+    width: 100%;
+}
+.signup-form label{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#c-submit:disabled{
+cursor:not-allowed;
+}
+#email-span{
+color:red;
+}
+.icon{
+position: relative;
+top:-30px;
+left:100%;
+font-size: 20px;
+
+color:red;
+z-index: 20;
+}
+.warn{
+  padding: 3px;
+   width: 100%;
+    /* padding:0;
+    padding-bottom:0; */
+    
+}
+
+.jost{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
